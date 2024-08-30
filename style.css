@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(133, 170, 212);
+}
+
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-container input[type="text"]{
+    width: 70%;
+}
+
+.input-container input[type="button"]
+{
+    background-color: rgb(69, 71, 200);
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.input-container input[type="button"]:hover{
+    background-color: #1ddb66;
+}
+ul{
+    width: 100%;
+    max-width: 450px;
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    border: 0.125px solid rgb(7, 23, 7);
+    border-radius: 8px;
+    margin-block-end: 12px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    transition: back 0.5s;
+}
+
+ul li:hover{
+    background-color: rgb(160, 179, 196);
+}
+
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: none;
+    font-weight: 300;
+    cursor: pointer;
+    background: transparent;
+    padding: 8px;
+}
+
+.deleteBtn{
+    color: red;
+}
+
+.editBtn{
+    color: #1d39db;
+}
